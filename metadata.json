@@ -1,0 +1,6 @@
+{
+  "name": "Entheogen & Cognitive Research Archive",
+  "description": "An interactive, academic database of natural entheogenic plants, synthetic peptides, and declassified dossiers inspired by Alan Glynn's Under the Night.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

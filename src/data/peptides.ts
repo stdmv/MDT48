@@ -1,0 +1,102 @@
+import { Peptide } from '../types';
+
+export const peptidesData: Peptide[] = [
+  {
+    id: 'dihexa',
+    name: 'Dihexa (PNB-0408)',
+    type: 'Neurotrophic Factor',
+    origin: 'Washington State University (WSU), USA',
+    primaryIndication: 'Alzheimer\'s disease, heavy-duty traumatic brain injury, and synaptogenesis restoration.',
+    mechanismOfAction: 'First-in-class small molecule peptide derivative of Angiotensin IV. Binds with extremely high affinity (Kd = picomolar) to Hepatocyte Growth Factor (HGF) and potentiates its activity at its receptor c-Met. This triggers high levels of rapid synaptogenesis (formation of new synapses and dendritic hubs) in brain tissue.',
+    potencyMetric: 'Approximately 10,000,000x more potent than brain-derived neurotrophic factor (BDNF) in synaptogenic assays.',
+    status: 'Research Chemical / Pre-clinical (Shelved regarding FDA human trials, highly sought after in biohacking grey market)',
+    efficacyRating: 9.5,
+    safetyRating: 6.0,
+    sensoryDistortion: 2.0,
+    description: 'An oral/transdermal compound that restores spatial learning, procedural memory, and active processing speed in animal models with severe cognitive lesions. In humans, it is reported to drastically boost verbal fluidity and pattern logic, though long-term safety studies are fully lacking.'
+  },
+  {
+    id: 'semax',
+    name: 'Semax (ACTH 4-7 Pro-Gly-Pro)',
+    type: 'Peptide',
+    origin: 'Institute of Molecular Genetics, Russian Academy of Sciences',
+    primaryIndication: 'Ischemic stroke, optic nerve disease, ADHD, transient vascular encephalopathy, and active military stress management.',
+    mechanismOfAction: 'A synthetic heptapeptide derived from the ACTH fragment (4-7) stabilized by an added Pro-Gly-Pro tripeptide. Dramatically increases brain expression of Brain-Derived Neurotrophic Factor (BDNF) and Nerve Growth Factor (NGF) in the hippocampus, blocks the breakdown of enkephalins, and modulates dopamine and serotonin levels.',
+    potencyMetric: '100% active at microgram doses via nasal administration; clinical neurological adjustments recorded within 4 minutes.',
+    status: 'Prescription Medicine (Approved in Russia/Ukraine since 1996; grey market import elsewhere)',
+    efficacyRating: 8.0,
+    safetyRating: 9.0,
+    sensoryDistortion: 1.0,
+    description: 'Developed during the height of the Soviet Union to maintain maximum focus, mental stamina, and cold-survival resilience in submarine crewmen and high-altitude aviators. Users experience extreme clarity, resistance to mental exhaustion, and immediate neuroprotection without any stimulant crash.'
+  },
+  {
+    id: 'selank',
+    name: 'Selank',
+    type: 'Peptide',
+    origin: 'Institute of Molecular Genetics, Russian Academy of Sciences',
+    primaryIndication: 'Generalized Anxiety Disorder (GAD), neurasthenia, focus under extreme survival stress, and high-adrenaline task execution.',
+    mechanismOfAction: 'Synthetic analog of the human immunomodulatory peptide Tuftsin. Competes with enkephalins to delay their enzymatic breakdown, increases serotonin and norepinephrine turnover, and downregulates the biological inflammatory profile of cytokines like IL-6.',
+    status: 'Prescription Medicine (Approved in Russia since 2009; grey market import elsewhere)',
+    potencyMetric: 'Highly bioavailable via nasal mucosa, active within 15 minutes without any sedative or hypnotic side effects.',
+    efficacyRating: 7.5,
+    safetyRating: 9.5,
+    sensoryDistortion: 0.5,
+    description: 'Designed as a companion to Semax, Selank behaves as an atypical anxiolytic. It down-regulates cortisol and high-strain adrenaline panic while leaving executive cognition completely clear, focused, and adaptable.'
+  },
+  {
+    id: 'cerebrolysin',
+    name: 'Cerebrolysin',
+    type: 'Neurotrophic Factor',
+    origin: 'EVER Neuro Pharma, Austria / Russia',
+    primaryIndication: 'Vascular dementia, stroke recovery, severe neurodegenerative conditions, and high-frequency cognitive restoration.',
+    mechanismOfAction: 'A highly concentrated porcine brain-derived peptide mixture consisting of low molecular weight peptides and free amino acids. Mimics natural nerve growth factors (BDNF, GDNF, CNTF, IGF-1) to support neuronal survival, dendritic sprouting, and microvascular density.',
+    potencyMetric: 'Requires intramuscular (IM) or intravenous (IV) administration of massive volume (5-10ml infusions); therapeutic cycles last 2-4 weeks.',
+    status: 'Approved Pharmaceutical (Europe, Asia, Russia; illegal to prescribe in the US but imported under personal-use exemptions)',
+    efficacyRating: 9.0,
+    safetyRating: 8.0,
+    sensoryDistortion: 2.5,
+    description: 'Considered the gold standard for clinical neuroprotection. Extensively used by Silicon Valley venture capitalists and elite aging circles for deep structural brain protection, memory repair, and neural-growth cycles.'
+  },
+  {
+    id: 'cx717',
+    name: 'CX717',
+    type: 'Ampakine',
+    origin: 'Cortex Pharmaceuticals / DARPA, USA',
+    primaryIndication: 'Severe sleep deprivation recovery, military night operations, ADHD, and severe cognitive slowdown.',
+    mechanismOfAction: 'Positive allosteric modulator of AMPA-type glutamate receptors. Prevents AMPA receptor desensitization, prolonging glutamate activity. This supercharges synaptic transmission throughout the prefrontal cortex, bringing the brain to peak attention and wakefulness.',
+    potencyMetric: 'Demonstrated complete cognitive restoration in sleep-deprived macaque monkeys at 15mg/kg; restores human baseline during extreme 36-hour sleep deprivation cycles.',
+    status: 'Shelved by FDA (Halted during Phase II due to unresolved animal liver/tissue toxicological queries; currently classified/private research)',
+    efficacyRating: 8.5,
+    safetyRating: 5.5,
+    sensoryDistortion: 1.5,
+    description: 'Dramatically researched under DARPA funding to bypass the need for sleep. Unlike Adderall, it is non-habit-forming, doesn\'t increase heart rate or blood pressure, and doesn\'t drain neurotransmitter reserves, acting purely as an attention-enhancer. Then, in 2006, human trials were abruptly placed on terminal hold.'
+  },
+  {
+    id: 'modafinil',
+    name: 'Modafinil (Provigil)',
+    type: 'Nootropic',
+    origin: 'Lafon Laboratories, France',
+    primaryIndication: 'Narcolepsy, shift work sleep disorder, military aviation cognitive maintenance (fighter pilots), and biohacking focus.',
+    mechanismOfAction: 'Atypical selective dopamine reuptake inhibitor (DRI) with secondary downstream activation of orexin/hypocretin neurons. Increases extracellular dopamine in the prefrontal cortex, stimulating extreme wakefulness and task completion.',
+    potencyMetric: 'Highly active at 100-200mg doses with a half-life of 12-15 hours.',
+    status: 'Schedule IV Prescription Drug (Approved for clinical use worldwide; extremely pervasive in collegiate and corporate environments)',
+    efficacyRating: 7.0,
+    safetyRating: 8.5,
+    sensoryDistortion: 0.5,
+    description: 'Known in pop culture as the "real limit-less pill" (along with Adderall). It keeps the mind awake, linear, and productive for up to 18 hours. However, it lacks the expansive associative thinking, empathy leaps, and pattern integration of true entheogens, keeping the brain in a hyper-focused but rigid state.'
+  },
+  {
+    id: 'ibogaine_synthetic',
+    name: 'Ibogaine (Noribogaine Active)',
+    type: 'Synthetic Pro-Drug',
+    origin: 'Central Africa (Traditional Root), synthesized for addiction medicine in clinics globally',
+    primaryIndication: 'Opioid, cocaine, and alcohol addiction cessation, severe treatment-resistant depression, and deep somatic trauma processing.',
+    mechanismOfAction: 'Atypical agonist at kappa-opioid receptors, NMDA antagonist, and serotonin reuptake blocker. Rapidly metabolizes into Noribogaine, which slowly clears out over weeks, stimulating high local production of GDNF and resetting central reward circuits (the neural reboot).',
+    potencyMetric: 'Extremely intense 24-36 hour psychedelic and dissociative trip; requires absolute medical monitoring due to cardiac hERG channel blockage risks.',
+    status: 'Unregulated/Illegal in major Western regions except under medical tourism (Mexico, South Africa, Bahamas)',
+    efficacyRating: 9.0,
+    safetyRating: 4.5,
+    sensoryDistortion: 9.0,
+    description: 'An atypical entheogenic compound. While too sensory-distorting and physically exhausting for day-to-day "smart drug" use, its single-dose ability to completely silence physical withdrawal and reset deeply grooved neuropathways is regarded as the most advanced cognitive reboot in known pharmacology.'
+  }
+];
